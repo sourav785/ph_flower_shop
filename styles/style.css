@@ -89,6 +89,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 178px;
+    margin-bottom:100px
 }
 .featured-section-title-content {
     display: flex;
@@ -118,11 +119,9 @@ body {
     justify-content: center;
 }
 .featured-section-image-content {
+    margin-top: 48px;
     display: flex;
-    gap: 24px;
-    /* justify-content: center;
-    align-items: center; */
-
+    gap: 48px;
 }
 .rectangle-1 {
     width: 464px;
@@ -154,6 +153,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+.flower-name {
+    position: absolute;
+    text-align: center;
+    margin-top: 600px;
+    color: rgb(39, 39, 39);
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: underline;
+}
 .featured-image-1 {
     position: absolute;
     width: 310px;
@@ -172,12 +180,5 @@ body {
     height: 471px;
     margin-bottom: -70px;
 }
-.rectangle-1 p {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.7); /* optional background */
 
-}
 
