@@ -79,4 +79,105 @@ body {
     width: 635px;
     height: 100%;
 }
+/* Main Section Styles */
+/* First Section */
+.featured-section-title-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 178px;
+}
+.featured-section-title-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.featured-section-title-content h2 {
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+}
+.featured-section-title-content p {
+    margin-top: 24px;
+    width: 740px;
+    height: 60px;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.featured-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.featured-section-image-content {
+    display: flex;
+    gap: 24px;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+.rectangle-1 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0 0;
+    background-color: rgba(167, 33, 98, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle-2 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0 0;
+    background-color: rgba(5, 151, 160, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle-3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0 0;
+    background-color: rgba(71, 125, 17, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.featured-image-1 {
+    position: absolute;
+    width: 310px;
+    height: 428px;
+    margin-bottom: -105px;
+}
+.featured-image-2 {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    margin-bottom: -105px;
+}
+.featured-image-3 {
+    position: absolute;
+    width: 314px;
+    height: 471px;
+    margin-bottom: -70px;
+}
+.rectangle-1 p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7); /* optional background */
+
+}
 
