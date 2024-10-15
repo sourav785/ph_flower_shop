@@ -181,4 +181,20 @@ body {
     margin-bottom: -70px;
 }
 
+/* Second Section */
+.service-section-container {
+    width: 1440px;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 128px;
+    background-color: rgba(39, 39, 39, 0.05);
+    text-align: center;
+}
+.service-section-container p {
+    margin-top: 27px;
+}
+
 
